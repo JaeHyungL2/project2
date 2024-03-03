@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>save</title>
+</head>
+<body>
+
+<!-- 처음 방식 익히는게 어렵지, 어차피 비슷한패턴 반복의 연속 ㅋ 이거지..-->
+<!--  액션 속성으로, 폼에 작성한 Data를 어디로 보낼지 지정할때..!씀..'/    /
+    즉, ex) 회원가입시 작성한 내용은 콘트롤러, 즉 서버로 요청이 가야한다..
+        이 정보로 해당서비스의 데이터베이스에 정보가 저장되도록 해야한다.
+            그래서 주소값은 member의 save-->
+<form action="/haha/2save" method="post" ></form>  <!-- get vs post 주소창에 내가보내는데이터가 보이면 post
+but, 회원가입은 보여야겠지 ㅋ 수정도해야ㅈ하니.. -->
+    <!-- 주소값은 컨트롤러의 getmapping 연결해둔 html에서 -> controller로 가면 받을때 정해둔거 써주고, form으로-->
+
+<!-- 입력받아보자, 3가지정보, ex)이멜,비번,이름
+이메일
+비밀번호;
+이름:
+-->
+<!--폼(form)안에서 어떤정보를 보낼땐,input!태그: 사용자의 입력받고자하는부분은 처리맡음-->
+<input type="text" name="jj">  <br>
+<input type="checkbox" name="" id="">
+
+<!--name이란 속성은: 쉽게말해서 변수이름인데, 즉 서버로 전송할때 사용자가 입력한 값이
+이 변수에 담긴다는뜻.! -->
+</body>
+</html>
